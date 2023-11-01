@@ -26,7 +26,7 @@ html {
 
 .nav-bar-items {
     display: inline-grid;
-    border: 2px solid black;
+    border: 5px solid black;
     padding: 10px;
     align-content: center;
     justify-content: center;
@@ -41,7 +41,6 @@ html {
 
 #title-background {
     width: 100%;
-    display: block;
 }
 
 #overlay-text1 {
@@ -65,39 +64,55 @@ html {
 
 
 .beer-selection-meta-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ 
 }
 
+/* ul for the beer list */
 .beer-list {
-    list-style-type: none;
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin: 0;  
+    list-style: none;
     padding: 0;
-    color: #FFF;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+ 
 }
 
 .beer-containers {
-    display: flex;
-    background-size: cover;
-    background-position: center;
     position: relative;
-    border: 2px solid black;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 3em;
+    margin: 0;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* the wrapping anchor tag - making the image clickable */
+.beer-links {
+   display: block;
+   width: 100%;
+   height: 100%;
 
 }
 
-.beer-container-background {
-
+/* the actual image */
+.beer-links img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: 5px solid black;
 }
 
+/* overlayed text */
 .beer-names {
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
 }
 

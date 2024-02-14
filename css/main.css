@@ -1,5 +1,7 @@
 
 body, html {
+    position: relative;
+    width: 100%;
     margin: 0%;
     padding: 0%;
 }
@@ -22,12 +24,9 @@ html {
 .nav-bar-items {
     display: flex;
     padding: auto 5%;
-
 }
 
-.title {
-    position: relative;
-    width: 100%;
+.main-div {
     
 }
 
@@ -35,9 +34,9 @@ html {
     width: 100%;
 }
 
-#overlay-text1 {
+#title-overlay-text1 {
     position: absolute;
-    top: 60%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4em;
@@ -45,9 +44,9 @@ html {
     z-index: 1;
 }
 
-#overlay-text2 {
+#title-overlay-text2 {
     position: absolute;
-    top: 70%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFF;

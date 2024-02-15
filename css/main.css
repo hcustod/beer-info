@@ -12,19 +12,26 @@ html {
 }
 
 .nav-bar {
-    
+    text-align: center;
+
 }
 
 .nav-bar-listings {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    background-color: azure;
 }
 
 .nav-bar-items {
     display: flex;
     padding: auto 5%;
+    background-color: aqua;
+    border: 2px black solid;
+    width: 10%;
+    text-align: center;
 }
+
 
 .main-div {
     

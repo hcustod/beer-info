@@ -11,31 +11,24 @@ html {
 
 }
 
-.nav-bar {
-    text-align: center;
+/* Nav bar */
 
-}
-
-.nav-bar-listings {
+#nav-bar-list {
+    background-color: aqua;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: azure;
+
 }
 
 .nav-bar-items {
-    display: flex;
-    padding: auto 5%;
-    background-color: aqua;
-    border: 2px black solid;
+    background-color: white;
     width: 10%;
     text-align: center;
+
 }
 
-
-.main-div {
-    
-}
+/* Title and background */
 
 #title-background {
     width: 100%;

@@ -14,24 +14,31 @@ html {
 /* Nav bar */
 
 #nav-bar-list {
-    background-color: aqua;
+    background-color: sandybrown;
+    box-shadow: 2px 2px 2px gray;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    border: 2px solid black;
+    padding: 1%;
 
 }
 
 .nav-bar-items {
-    background-color: white;
+    background-color: lightsalmon;
+    box-shadow: 2px 2px 2px gray;
     width: 10%;
     text-align: center;
+    border: 3px solid black;
 
 }
 
 /* Title and background */
 
-#title-background {
+#background {
     width: 100%;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px gray;
 }
 
 #title-overlay-text1 {

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Workbench&display=swap');
+
 
 body, html {
+    font-family: Honk;
     position: relative;
     width: 100%;
     margin: 0%;
@@ -43,10 +46,10 @@ html {
 
 #title-overlay-text1 {
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4em;
+    font-size: 350px;
     color: #FFF;
     z-index: 1;
 }
@@ -56,6 +59,7 @@ html {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 30px;
     color: #FFF;
     z-index: 1; 
 }
@@ -106,7 +110,7 @@ html {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 3rem;
     width: 100%;
 }
 

@@ -32,9 +32,14 @@
 
     <main>
 
+        <div>  <!-- 
+                Not sure if this extra container is useful. Checkout both screen sizes to see issue with nav bar 
+                Sizing becomes a bit skewed, but unsure how much we really want to keep focusing on that. 
+                Perhaps focus on completness and return at end? 
+                -->
             <img id="background" src="./assets/wil-stewart-UErWoQEoMrc-unsplash.jpg">
-            <h1 id="title-overlay-text1"> BEER </h1>
-            <h3 id="title-overlay-text2"> A website all about beer! </h3>
+            <h1 id="title-overlay-text1" class="honk-class"> BEER </h1>
+            <h3 id="title-overlay-text2" class="honk-class"> A website all about beer! </h3>
 
 
             <div class="beer-selection-meta-container">
@@ -43,7 +48,7 @@
                     <li class="beer-containers">
                         <a href="beer_reviews.html" class="beer-links">
                             <img class="beer-container-background" src="./assets/ale.jpg" alt="Picture of Ale" width=250 height=>
-                            <span class="beer-names"> Ales </span>
+                            <span class="beer-names honk-class"> Ales </span>
                         </a>
     
                     </li>
@@ -51,7 +56,7 @@
                     <li class="beer-containers">
                         <a href="beer_reviews.html" class="beer-links">
                             <img class="beer-container-background" src="./assets/lager.jpg" alt="Picture of Ale" width=250 height=>
-                            <span class="beer-names"> Lagers </span>
+                            <span class="beer-names honk-class"> Lagers </span>
                         </a>
     
                     </li>
@@ -59,14 +64,14 @@
                     <li class="beer-containers">
                         <a href="beer_reviews.html" class="beer-links">
                             <img class="beer-container-background" src="./assets/stout.jpg" alt="Picture of Ale" width=250 height=>
-                            <span class="beer-names"> Stouts </span>
+                            <span class="beer-names honk-class"> Stouts </span>
                         </a>
     
                     </li>
                     <li class="beer-containers">
                         <a href="beer_reviews.html" class="beer-links">
                             <img class="beer-container-background" src="./assets/porter.jpg" alt="Picture of Ale" width=250 height=>
-                            <span class="beer-names"> Porters </span>
+                            <span class="beer-names honk-class"> Porters </span>
                         </a>
     
     
@@ -74,7 +79,7 @@
                     <li class="beer-containers">
                         <a href="beer_reviews.html" class="beer-links">
                             <img class="beer-container-background" src="./assets/ipa.jpg" alt="Picture of Ale" width=250 height=>
-                            <span class="beer-names"> IPAs </span>
+                            <span class="beer-names honk-class"> IPAs </span>
                         </a>
     
     
@@ -82,12 +87,16 @@
                     <li class="beer-containers">
                         <a href="beer_reviews.html" class="beer-links">
                             <img class="beer-container-background" src="./assets/more.jpg" alt="Picture of Ale" width=250 height=>
-                            <span class="beer-names"> More to come! </span>
+                            <span class="beer-names honk-class"> More to come! </span>
                         </a>
                     </li>
                 </ul>
 
             </div>
+
+
+        </div>
+
         
     </main>
 

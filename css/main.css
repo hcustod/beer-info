@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@14,25.9&family=Workbench&display=swap');
 
 
 body, html {
-    font-family: Honk;
+    font-family: "Honk";
     position: relative;
     width: 100%;
     margin: 0%;
     padding: 0%;
+}
+
+
+.honk-class {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 14,
+      "SHLN" 25.9;
 }
 
 html {
@@ -14,11 +25,12 @@ html {
 
 }
 
+
 /* Nav bar */
 
 #nav-bar-list {
-    background-color: sandybrown;
-    box-shadow: 2px 2px 2px gray;
+    background-image: linear-gradient(to top, magenta, orange 70%);
+    box-shadow: 4px 4px 4px black;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -29,11 +41,20 @@ html {
 
 .nav-bar-items {
     background-color: lightsalmon;
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 4px 4px 4px black;
     width: 10%;
     text-align: center;
+    font-size: 1.5rem;
     border: 3px solid black;
 
+}
+
+.nav-bar-items a {
+    text-decoration: none;
+}
+
+.nav-bar-items:hover {
+    background-color: #c85a54; /* A darker shade of lightsalmon for hover effect */
 }
 
 /* Title and background */
@@ -73,13 +94,17 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 20px;
+    padding: auto;
+    background-color: aqua;
  
+}
+
+.beer-selection-meta-container {
+    margin-top: -40%;
 }
 
 .beer-containers {
     position: relative;
-    margin: 0;
     max-width: 300px;
     margin: auto;
     overflow: hidden;
@@ -99,7 +124,8 @@ html {
     height: 100%;
     object-fit: cover;
     box-sizing: border-box;
-    border: 5px solid black;
+    border: 5px solid magenta;
+    box-shadow: 4px 4px 4px black;
 }
 
 /* overlayed text */

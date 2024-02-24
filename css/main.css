@@ -29,7 +29,7 @@ html {
 /* Nav bar */
 
 #nav-bar-list {
-    background-image: linear-gradient(to top, magenta, orange 70%);
+    background-image: linear-gradient(to top, orange, magenta 70%);
     box-shadow: 4px 4px 4px black;
     list-style: none;
     display: flex;

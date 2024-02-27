@@ -140,3 +140,18 @@ html {
     width: 100%;
 }
 
+
+/* Footer */
+
+footer {
+    margin-top: 8%;
+    background-image: linear-gradient(to top, magenta, orange 70%);
+    border: 2px solid black;
+
+}
+
+#footer-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
